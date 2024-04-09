@@ -1,0 +1,17 @@
+# Table of contents
+
+* [du](README.md)
+* [ls](ls.md)
+* [stat](stat.md)
+* [grep](grep.md)
+* [tr](tr.md)
+* [awk](awk.md)
+* [sed](sed.md)
+* [xargs](xargs.md)
+* [sort](sort.md)
+* [uniq](uniq.md)
+* [curl](curl.md)
+* [wget](wget.md)
+* [xxd](xxd.md)
+* [find](find.md)
+* [References](references.md)
