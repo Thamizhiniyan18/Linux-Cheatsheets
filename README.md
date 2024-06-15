@@ -1,23 +1,46 @@
 ---
-description: du linux command cheatsheet by Thamizhiniyan C S
+description: id linux command cheatsheet by Thamizhiniyan C S
 ---
 
-# du
+# id
 
 ## Introduction
 
-`du` is a command in linux (short for disk usage) which helps you identify what files/directories are consuming how much space.
+The id command is used to print real and effective user and group IDs
+
+***
+
+## Syntax
+
+`id [OPTION]... [USER]...`
 
 ***
 
 ## Important Flags
 
-<table><thead><tr><th width="167">Flag</th><th>Description</th></tr></thead><tbody><tr><td>-a</td><td>Will list files as well with the folder.</td></tr><tr><td>-h</td><td>Will list the file sizes in human readable format(B,MB,KB,GB)</td></tr><tr><td>-c</td><td>Using this flag will print the total size at the end. Jic you want to find the size of directory you were enumerating</td></tr><tr><td>-d &#x3C;number></td><td>Flag to specify the depth-ness of a directory you want to view the results for (eg. -d 2)</td></tr><tr><td>--time </td><td>To get the results with time stamp of last modified.</td></tr></tbody></table>
+| Flag       | Description                               |
+| ---------- | ----------------------------------------- |
+| `-g`       | Print only the effective group id.        |
+| `-G`       | Print all Group ID’s.                     |
+| `-n`       | Prints name instead of number.            |
+| `-r`       | Prints real ID instead of numbers.        |
+| `-u`       | Prints only the effective user ID.        |
+| `–help`    | Display help messages and exit.           |
+| `–version` | Display the version information and exit. |
 
 ***
 
 ## Examples
 
-`du -a /home/`
-
-`du --time -d 1 /home/`
+<table><thead><tr><th width="227">Command</th><th>Description</th></tr></thead><tbody><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id
+</code></pre></td><td>Print the current user's UID and GID.</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -u root
+</code></pre></td><td>Find the UID of the user named "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -g root
+</code></pre></td><td>Find the GID of the user named "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id root
+</code></pre></td><td>Find the UID and all groups associated with the user "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -G root
+</code></pre></td><td>Display the UID and all groups a user "root" belongs to.</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -ng root
+</code></pre></td><td>Display the name instead of numbers for GID of "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -nu root
+</code></pre></td><td>Display the name instead of numbers for UID of "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -nG root
+</code></pre></td><td>Display the name instead of numbers for all groups of "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -r -g root
+</code></pre></td><td>Display the real GID instead of effective GID of "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -r -u root
+</code></pre></td><td>Display the real UID instead of effective UID of "root".</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">id -r -G root
+</code></pre></td><td>Display the real group IDs instead of effective groups of "root".</td></tr></tbody></table>

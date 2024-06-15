@@ -6,12 +6,6 @@
 
 [https://tryhackme.com/r/room/linuxstrengthtraining](https://tryhackme.com/r/room/linuxstrengthtraining)
 
-[https://phoenixnap.com/kb/linux-stat](https://phoenixnap.com/kb/linux-stat)
-
-[https://phoenixnap.com/kb/linux-ls-commands](https://phoenixnap.com/kb/linux-ls-commands)
-
-[https://www.geeksforgeeks.org/tr-command-in-unix-linux-with-examples/](https://www.geeksforgeeks.org/tr-command-in-unix-linux-with-examples/)
-
 [https://linuxize.com/post/linux-tr-command/](https://linuxize.com/post/linux-tr-command/)
 
 [https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
@@ -26,9 +20,18 @@
 
 [https://academy.hackthebox.com/module/35/](https://academy.hackthebox.com/module/35/)
 
+[https://phoenixnap.com/kb/tag/commands](https://phoenixnap.com/kb/tag/commands)
 
+[https://phoenixnap.com/kb/tag/linux](https://phoenixnap.com/kb/tag/linux)
 
+[https://www.geeksforgeeks.org/linux-commands/](https://www.geeksforgeeks.org/linux-commands/)
 
+[https://cht.sh/](https://cht.sh/)
 
+[https://www.redhat.com/sysadmin/](https://www.redhat.com/sysadmin/)
 
+[https://www.javatpoint.com/](https://www.javatpoint.com/)
 
+[https://linuxhandbook.com/](https://linuxhandbook.com/)
+
+[https://www.hostinger.com/tutorials/linux-file-command/](https://www.hostinger.com/tutorials/linux-file-command/)
