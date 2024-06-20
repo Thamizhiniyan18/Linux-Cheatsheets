@@ -51,5 +51,5 @@ The find command is used to search for files in a directory hierarchy.
 </code></pre></td><td>Find files based on date accessed</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">find [directory path] -type f -newermt [start date range] ! -newermt [end date range]
 </code></pre></td><td>Find files based on date modified</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">find [directory path] -type f -newermt '[date and time]'
 </code></pre></td><td>Find files modified after a specific date</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">find [directory path] -type f -group [group name]
-</code></pre></td><td>Find files based on group name</td></tr></tbody></table>
-
+</code></pre></td><td>Find files based on group name</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">find [directory] -type l ! -exec test -e {} \; -print
+</code></pre></td><td>To perform the search and locate the links that do not work (Find Broken Symbolic Links)</td></tr></tbody></table>
