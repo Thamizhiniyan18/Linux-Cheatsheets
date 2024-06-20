@@ -94,8 +94,6 @@ The commands have no output
 </code></pre>  | Filters and displays only the commands containing the term “chpasswd.”       |
 | <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">!!
 </code></pre>                       | Reruns the last executed command.                                            |
-| <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">unset HISTFILE
-</code></pre>           | Executes a command without storing it in the history.                        |
 | <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">!command_starting_string
 </code></pre> | Executes the latest command starting with “command\_starting\_string.”       |
 | <pre class="language-bash" data-overflow="wrap"><code class="lang-bash">history -d 1996
