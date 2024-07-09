@@ -6,13 +6,13 @@ description: history linux command cheatsheet by Thamizhiniyan C S
 
 ## Introduction
 
-
+This command is used to display the history list with line numbers.
 
 ***
 
 ## Syntax
 
-
+`history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]`
 
 ***
 
@@ -30,6 +30,16 @@ description: history linux command cheatsheet by Thamizhiniyan C S
 | `-s`        | Append the ARGs to the history list as a single entry.                                                     |
 
 ***
+
+## Executing Command without making an entry in history
+
+Executing a command with space character " " as a prefix will get the job done.
+
+```bash
+# The following command won't make an entry in history since it is prefixed 
+# with a space character
+  echo "Some Kinda API Key"
+```
 
 ## Disabling and Enabling history
 
@@ -68,7 +78,7 @@ The commands have no output
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `!!`                          | Repeat the last command. It is probably easier to press the up arrow and enter.                              |
 | `![number]`                   | Repeat history list item number.                                                                             |
-| `![number]:`                  | Displays the command associated with event number without executing it.                                      |
+| `![number]:p`                 | Displays the command associated with event number without executing it.                                      |
 | `!-[number]`                  | Add a dash (-) before the command number to run a specific command from the end of the list.                 |
 | `![string]`                   | Repeat last history list item starting with string.                                                          |
 | `!?[string]`                  | Repeat last history list item containing string.                                                             |
