@@ -56,4 +56,5 @@ This command is used to move the files and directories from the source to destin
 </code></pre></td><td>Forcefully renames file to filename1, overwriting filename1 if it exists.</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">mv -n oldfile newfile
 </code></pre></td><td>Renames oldfile to newfile, does not overwrite newfile if it exists.</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">mv -b first_file second_file
 </code></pre></td><td>Renames first_file to second_file, creates a backup of second_file if it exists.</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">mv --version
-</code></pre></td><td>Displays the version of mv.</td></tr></tbody></table>
+</code></pre></td><td>Displays the version of mv.</td></tr><tr><td><pre class="language-bash" data-overflow="wrap"><code class="lang-bash">for file in *.24bes; do mv "$file" "${file%.24bes}"; done
+</code></pre></td><td>Loops through all the files with .24bes extension and removes the extension `.24bes`.</td></tr></tbody></table>
